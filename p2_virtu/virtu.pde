@@ -1,6 +1,6 @@
 void virtu(float px, float py){
   push();
-  translate(py,px);
+  translate(px,py);
   rectMode(CENTER);
   strokeWeight(5);
   noFill();
