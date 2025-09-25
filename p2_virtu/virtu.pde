@@ -1,5 +1,5 @@
 void virtu(float px, float py){
-  pushMatrix();
+  push();
   translate(py,px);
   rectMode(CENTER);
   strokeWeight(5);
@@ -15,5 +15,5 @@ void virtu(float px, float py){
   line(50 + 45, 50 - 25, 50 + 45, 50 + 40);
   arc(50, 50 + 0, 5, 7, 0, PI);
   translate(py,px);
-  popMatrix();
+  pop();
 }
