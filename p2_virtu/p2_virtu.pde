@@ -1,6 +1,6 @@
 void setup(){
-  size(500,500);
+  size(100,200);
 }
 void draw(){
-  virtu(30,100);
+  virtu(0,10);
 }
